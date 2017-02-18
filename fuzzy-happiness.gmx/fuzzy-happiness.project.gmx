@@ -10,6 +10,7 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_enemy_2</sprite>
+    <sprite>sprites\spr_gold</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -19,14 +20,17 @@
   <scripts name="scripts">
     <script>scripts\init_part.gml</script>
     <script>scripts\init_part_2.gml</script>
+    <script>scripts\init_part_3.gml</script>
     <script>scripts\check_spawn_1.gml</script>
     <script>scripts\check_spawn_2.gml</script>
+    <script>scripts\check_spawn_points.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wave</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_enemy_2</object>
+    <object>objects\obj_gold</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_1</room>
