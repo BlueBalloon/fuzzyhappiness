@@ -108,7 +108,7 @@ points += 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp -= 2;
+            <string>if (hp &gt; 0) hp -= 2;
 </string>
           </argument>
         </arguments>
@@ -131,7 +131,7 @@ points += 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp --;
+            <string>if(hp&gt;0) hp --;
 
 </string>
           </argument>

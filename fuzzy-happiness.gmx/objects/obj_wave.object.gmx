@@ -55,7 +55,9 @@ spawn_rate_3 = 400;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(time &lt;= 0)
+            <string>if (obj_player.hp &gt; 0)
+{
+if(time &lt;= 0)
 {
 level ++;
 if (level &lt; 10)
@@ -79,6 +81,7 @@ obj_player.points++;
 p = 0;
 }else p ++;
 alarm[0] = 60;
+}
 </string>
           </argument>
         </arguments>
