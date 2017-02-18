@@ -13,6 +13,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
+    <background>background\bg_2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
