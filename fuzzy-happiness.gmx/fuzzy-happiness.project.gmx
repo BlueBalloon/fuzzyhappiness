@@ -11,7 +11,9 @@
     <sprite>sprites\spr_enemy</sprite>
     <sprite>sprites\spr_enemy_2</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_1</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\init_part.gml</script>
