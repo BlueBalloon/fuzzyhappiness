@@ -52,6 +52,7 @@
 if(keyboard_check(ord("A"))) x-=5;
 if(keyboard_check(ord("W"))) y-=5;
 if(keyboard_check(ord("S"))) y+=5;
+move_wrap(1,1,0);
 if(hp &lt;=0)
 {
 obj_player.x = 0;
